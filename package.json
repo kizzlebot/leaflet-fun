@@ -1,0 +1,25 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "faker": "4.1.0",
+    "leaflet": "latest",
+    "leaflet.markercluster": "latest",
+    "prop-types": "latest",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-leaflet": "1",
+    "react-leaflet-markercluster": "latest",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
