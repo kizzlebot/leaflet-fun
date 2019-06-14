@@ -1,5 +1,5 @@
 workflow "New workflow" {
-  resolves = ["run build"]
+  resolves = ["run build", "debug"]
   on = "push"
 }
 
@@ -12,4 +12,9 @@ action "run build" {
     "DEST",
     "PRIVATE_KEY",
   ]
+}
+
+
+action "debug" {
+  uses = "actions/bin/debug"
 }
